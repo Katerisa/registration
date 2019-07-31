@@ -4,7 +4,9 @@ body {
 }
 
 button {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 80px;
     width: 100%;
     margin-bottom: 20px;
@@ -22,8 +24,7 @@ button, .form, .city {
     position: relative;
 }
 
-.google_logo, .facebook_logo,
-.twitter_logo, .container {
+.container {
     position: absolute;
 }
 
@@ -73,15 +74,7 @@ button, .form, .city {
     margin: 0;
     color: gray;
 }
-.google_logo, .facebook_logo, .twitter_logo {
-    top: 30px;
-    left: 20px;
+.google_logo, .facebook_logo, .twitter_logo, .empty_img {
     width: 30px;
-    float: left;
     padding-left: 30px;
-}
-@media screen and (max-width: 575px){
-    .city {
-        display: none;
-    }
 }
