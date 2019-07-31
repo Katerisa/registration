@@ -1,0 +1,86 @@
+body {
+    background-color: #51565C;
+    font-family: "Century Gothic", sans-serif;
+}
+
+button, .form, .city {
+    position: relative;
+}
+.google_logo, .facebook_logo,
+.twitter_logo, .container {
+    position: absolute;
+}
+button {
+    display: block;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    color: #4d4d4d;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+button:hover{
+    box-shadow: 0 3px 15px 5px gainsboro;
+}
+
+.buttons {
+    margin-top: 60px;
+}
+.button_text {
+    line-height: 80px;
+}
+.name {
+    color: darkgrey;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.city, .container {
+    width: 60vw;
+    height: 90vh;
+}
+.form {
+    padding-top: 100px;
+    padding-right: 30px;
+    width: 80%;
+}
+.form, .left {
+    padding-left: 70px;
+}
+.city {
+    overflow:hidden;
+    border-radius: 0 20px 20px 0;
+    background: url("assets/city.jpg") no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: white;
+    border-radius: 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.header {
+    font-size: 50px;
+    font-weight: 100;
+    color: #4d4d4d;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.latin {
+    line-height: 2;
+    margin: 0;
+    color: gray;
+}
+.google_logo, .facebook_logo, .twitter_logo {
+    top: 30px;
+    left: 20px;
+    width: 30px;
+    float: left;
+    padding-left: 30px;
+}
