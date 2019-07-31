@@ -23,7 +23,7 @@ button, .form, .city {
 }
 
 .google_logo, .facebook_logo,
-.twitter_logo {
+.twitter_logo, .container {
     position: absolute;
 }
 
